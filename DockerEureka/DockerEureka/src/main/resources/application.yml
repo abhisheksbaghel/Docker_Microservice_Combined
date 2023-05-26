@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: EUREKA_SERVER
+
+server:
+  port: 443
+#  ssl:
+#    enabled: true
+#    key-store: classpath:server.p12
+#    key-password: 123456
+#    key-store-password: 123456
+#    key-store-type: PKCS12
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
